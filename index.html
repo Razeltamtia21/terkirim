@@ -6,6 +6,25 @@
     <title>Pesan Berhasil Terkirim</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap" rel="stylesheet">
     <style>
+
+    :root {
+    --header-height: 3rem;
+    --font-semi: 600;
+    --hue-color: 224;
+    --first-color: hsl(var(--hue-color), 89%, 60%);
+    --second-color: hsl(var(--hue-color), 56%, 12%);
+    --body-font: "Poppins", sans-serif;
+    --big-font-size: 2rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: .938rem;
+    --smaller-font-size: .75rem;
+    --mb-2: 1rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+    --z-back: -10;
+    --z-fixed: 100;
+    }
         body {
             margin: 0;
             padding: 0;
@@ -21,32 +40,32 @@
             background-color: #fff;
             padding: 20px;
             border-radius: 15px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-            width: 80%; 
-            max-width: 400px; 
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            width: 80%; /* Menyesuaikan lebar kontainer */
+            max-width: 400px; /* Maksimum lebar kontainer */
         }
         h1 {
             color: #4CAF50;
-            font-size: 20px;
+            font-size: 20px; /* Ukuran font yang lebih kecil */
             margin-bottom: 10px;
         }
         p {
             color: #333;
-            font-size: 14px; 
+            font-size: 14px; /* Ukuran font yang lebih kecil */
             margin-bottom: 20px;
         }
         a {
             display: inline-block;
             padding: 10px 15px;
-            background-color: #ff5f5f;
+            background-color: var(--first-color);
             color: #fff;
             text-decoration: none;
             border-radius: 8px;
             transition: background-color 0.3s ease;
             font-size: 14px;
         }
-        a:hover {
-            background-color: #d83030;
+        a:active {
+            background-color: var(--second-color);
         }
     </style>
 </head>
@@ -54,8 +73,8 @@
 
     <div class="container">
         <h1>Pesan Berhasil Terkirim!</h1>
-        <p>Terima kasih telah mengirimkan pesan. Razel akan segera menanggapi Anda.</p>
-        <a href="https://razeltamtia21.github.io/kirim-pesan/">Kembali ke Formulir</a>
+        <p>Terima kasih telah mengirimkan pesan. Leluch Lamperouge akan segera menanggapi Anda.</p>
+        <a href="https://razeltamtia21.github.io/Website-Lelouch-Lamperouge/">Kembali ke Website</a>
     </div>
 
 </body>
